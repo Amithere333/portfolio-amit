@@ -29,13 +29,7 @@ header{
 
 
 
-nav{
-   background-color:#333;
-   height: 60px;
-    box-sizing: border-box;
-    padding: 18px;
-  
-}
+
 
 footer p{
    display:inline;
@@ -45,32 +39,6 @@ footer p{
 
 
 
-
-
-nav a{
-   margin:10px;
-   text-decoration:none;
-   font-size:1.1em;
-   text-transform: uppercase;
-   padding:3px;
-   border-radius:4px;
-
-}
-
-
-
-nav{
-   background-color:#333;
-   height: 60px;
-    box-sizing: border-box;
-    padding: 18px;
-  
-}
-
-footer p{
-   display:inline;
-   padding-left:10px;
-}
 
 h1 {
     font-size:3em;
@@ -82,17 +50,12 @@ h1 {
 }
 
 
-#projects a{
+#projects a, #contact a{
     text-decoration:none;
 }
 
-nav a:hover{
-    background-color: #007acc;
-}
 
-#contact a{
-    text-decoration:none;
-}
+
 
 #aboutMe{
     border:2px solid black;
