@@ -9,6 +9,9 @@ body{
 
 *{
     color:white;
+
+    box-sizing: border-box;
+
 }
 
 
@@ -25,6 +28,13 @@ header{
 
 
 
+nav{
+    background-color: #444;
+    padding:18px;
+    height:  60px;
+    
+
+}
 
 
 
@@ -44,10 +54,12 @@ h1 {
     font-size:3em;
     background-color: #007acc;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     display: inline-block;
     
 }
+
+
 
 
 #projects a, #contact a{
@@ -58,36 +70,57 @@ h1 {
 
 
 #aboutMe{
-    border:2px solid black;
-    border-radius: 10px 15px 10px 15px;
+    
     background-color:blueviolet;
-    padding:3px;
+    
 }
 
 
 #projects{
     background-color: rgb(61, 84, 0);
-    margin-top:20px;
-    border-radius: 10px;
-    padding:10px;
+    
 }
 
 #skills{
     background-color:brown;
-    margin-top:20px;
-    border-radius: 10px;
-    padding:10px;
+   
 }
 
 #contact{
-    background-color:rgb(61, 0, 0)
-
-    ;
-    margin-top:20px;
-    border-radius: 10px;
-    padding:10px;
+    background-color:rgb(61, 0, 0);
 }
 
 #contact a:hover{
     color: #007acc;
+}
+
+nav a{
+
+    text-decoration: none;
+    font-size:1.3em;
+    margin:10px;
+    border-radius:15px;
+    padding:10px;
+    
+    
+    
+   
+    
+}
+
+nav a:hover{
+    background-color:blue;
+    
+    
+}
+
+.sections{
+border-radius: 10px ;
+padding:30px;
+margin-top:30px;
+
+}
+
+#contact{
+    margin-bottom: 15px;
 }
