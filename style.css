@@ -58,11 +58,12 @@ footer p{
 
 h1 {
     font-size:3em;
-    background-color: #007acc;
+    background-color: rgb(0,0,90);
     padding: 10px 20px;
     border-radius: 20px;
     display: inline-block;  
     font-family: Arial, sans-serif;
+    color:rgb(250,250,200)
 }
 
 
@@ -75,33 +76,6 @@ h1 {
 
 
 
-#aboutMe{
-    
-    background-color:blueviolet;
-    
-}
-
-
-
-#projects{
-    background-color: rgb(61, 84, 0);
-    
-}
-
-
-
-
-#skills{
-    background-color:brown;
-   
-}
-
-
-
-
-#contact{
-    background-color:rgb(61, 0, 0);
-}
 
 
 
@@ -129,7 +103,7 @@ nav a{
 
 
 nav a:hover{
-    background-color:blue;
+    background-color:#0096FF;
     
     
 }
@@ -138,9 +112,11 @@ nav a:hover{
 
 
 .sections{
+    border:1px solid white;
 border-radius: 10px ;
 padding:30px;
 margin-top:30px;
+background-color: rgb(0,0,50);
 
 }
 
